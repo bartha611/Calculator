@@ -1,0 +1,50 @@
+#app {
+  width: 300px;
+  margin: auto;
+  margin-top: 60px;
+  height: 400px;
+  position: relative;
+}
+.calculator {
+  background-color: black;
+  padding: 5px;
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  position: relative;
+}
+button {
+  position: relative;
+  width: 75px;
+  height: 64px;
+  font-size: 20px;
+  background-color: grey;
+  cursor: pointer;
+  border: 0.5px solid black;
+  color: white;
+  font-family: digital;
+}
+.screen {
+  width: 300px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  text-align: right;
+  overflow-wrap: break-word;
+  border: 0.5px solid grey;
+}
+.formula {
+  vertical-align: text-top;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: digital;
+  color: yellow;
+}
+.result {
+  font-family: digital;
+  font-size: 20px;
+}
+button:hover {
+  color: orange;
+  background-color: green;
+}
